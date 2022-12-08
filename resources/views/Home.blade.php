@@ -10,6 +10,7 @@
 <body>
     <div class = "container">
         <h1>User Data Insert</h1>
+        {$errors}
         <form action = "dataInsert" method = "post" enctype = "multipart/form-data" >
             @csrf
 

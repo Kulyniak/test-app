@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'HomeIndex']);
 Route::post('dataInsert', [HomeController::class, 'DataInsert']);
+Route::post('users', [ValidController::class, 'getData']);
